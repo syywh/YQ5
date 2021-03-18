@@ -20,10 +20,10 @@ You can download this project into your ROS workspace and build it with ```catki
 ```
 roslaunch YQ5 raw_transport.launch
 ```
+You can find the intrinsic of the cameras in ```script/pointgreyleft.yaml``` and ```script/pointgreyright.yaml```. The extrinsics of camera-lidar and camera-IMU are in ```script/extrinsic_lidar_camera.txt``` and ```script/extrinsic_camera_imu.txt```.
 
 
-
-
+## Reference
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/) and is intended for non-commercial academic use. If you want to use this dataset in your publications please cite either of the following paper:
 
     @article{ding2019persistent,
