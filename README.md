@@ -1,8 +1,13 @@
 # YQ5 
+## Overview
+This is a **long-term visual localization dataset** collected in campus environment. The five trajectories are collected in summer and winter in 2017-08-23, 2017-08-24, 2017-08-28 and 2018-01-29,in which the trajectory of 2017-08-24 is opposite to the other four trajectories. All data is available in Rosbag format that can be visualized, modified and applied using the open source Robot Operating System (ROS). Each Rosbag file contains synchronized data from the following sensors:
+* Velodyne VLP-16 Lidar
+* A pair of Point grey cameras
+* MTi-100 IMU
 
-This is a **long-term visual localization dataset** collected in campus environment. The five trajectories are collected in summer and winter in 2017-08-23, 2017-08-24, 2017-08-28 and 2018-01-29,in which the trajectory of 2017-08-24 is opposite to the other four trajectories. You can download the dataset [here](https://pan.baidu.com/s/1KXRSEvJBoRsVfYQJjHc8ig) with passward `d43p`. 
+You can download the dataset [here](https://pan.baidu.com/s/1KXRSEvJBoRsVfYQJjHc8ig) with passward `d43p`. 
 
-Notice that there are another 21 sessions of data collected in spring in 2017-03-03, 2017-03-07 and 2017-03-09 along almost the same trajectory, which we used to build the map in our work to test the long term visual localization. You can find the data [here](https://tangli.site/projects/academic/yq21/).
+Notice that there are another 21 sessions of data collected in spring in 2017-03-03, 2017-03-07 and 2017-03-09 along almost the same trajectory, which we used to build the map in our work to test the long term visual localization. The camera used in the dataset is a ZED stereo camera. You can find the data [here](https://tangli.site/projects/academic/yq21/).
 
 ## Usage
 Since the original bag exceeds the 4G upload limit, we compress and split each of the bag into several smaller files. You can first merge the files of each directory using
