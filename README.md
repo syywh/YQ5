@@ -7,6 +7,8 @@ This is a **long-term visual localization dataset** collected in campus environm
 
 You can download the dataset [here](https://pan.baidu.com/s/1KXRSEvJBoRsVfYQJjHc8ig) with passward `d43p`. 
 
+![image](https://github.com/syywh/YQ5/blob/main/scene.png)
+
 Notice that there are another 21 sessions of data collected in spring in 2017-03-03, 2017-03-07 and 2017-03-09 along almost the same trajectory, which we used to build the map in our work to test the long term visual localization. The camera used in the dataset is a ZED stereo camera. You can find the data [here](https://tangli.site/projects/academic/yq21/).
 
 ## Usage
